@@ -2,8 +2,7 @@ import axios from 'axios';
 
 export const SPOTIFY_AUTH_URL = 'https://accounts.spotify.com/api/token';
 export const SPOTIFY_AUTHORIZE_URL = 'https://accounts.spotify.com/authorize';
-export const CLIENT_ID = '2a222dc5c8af4df391fb1259567711d7';
-export const CLIENT_SECRET = 'f71b6c6f47404c1bbde0e802e58fb225';
+
 export const SCOPES = [
   'streaming',
   'user-read-playback-state',
